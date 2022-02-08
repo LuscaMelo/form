@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Formulário com API</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <h1>Cadastre seu Endereço</h1>
+            <i class="fas fa-address-card"></i>
+        </div>
+
+        <hr class="hr">
+        
+        <form class="form" action="/">
+            <div class="row">
+                <div class="line">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                
+                <div class="line">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="nome" id="sobrenome">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="line">
+                    <label for="email">Digite seu e-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="line">
+                    <label for="nome">CEP:</label>
+                    <input type="number" name="cep" id="cep">
+                    <p class="danger"></p>
+                </div>
+
+                <div class="line">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+
+                <div class="line">
+                    <label for="sobrenomenome">Número:</label>
+                    <input type="text" name="numero" id="numero">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="line">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+
+                <div class="line">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+
+                <div class="line">
+                    <label for="estado">Estado:</label>
+                    <input type="text" name="estado" id="estado">
+                </div>
+            </div>
+
+            <button type="submit">Enviar</button>
+            
+        </form>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
